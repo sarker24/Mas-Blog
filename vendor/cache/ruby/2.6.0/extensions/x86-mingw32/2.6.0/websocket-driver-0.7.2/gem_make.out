@@ -1,0 +1,16 @@
+current directory: C:/Users/45717/RubymineProjects/Mas-Blog/vendor/cache/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+C:/Ruby26/bin/ruby.exe -I C:/Ruby26/lib/ruby/2.6.0 -r ./siteconf20200628-7944-kq8n4e.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/45717/RubymineProjects/Mas-Blog/vendor/cache/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: C:/Users/45717/RubymineProjects/Mas-Blog/vendor/cache/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR="
+generating websocket_mask-i386-mingw32.def
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: C:/Users/45717/RubymineProjects/Mas-Blog/vendor/cache/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20200628-7944-1lmohmb

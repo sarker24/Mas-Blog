@@ -1,0 +1,2 @@
+module LalmaiHelper
+end

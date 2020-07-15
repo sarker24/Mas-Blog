@@ -1,0 +1,59 @@
+@import "~bootstrap/scss/bootstrap";
+
+.card-group{
+  margin-top: 1px;
+  border: 0px solid #e7e7e7;
+  border-right: 0px;
+  padding: 0px;
+  height: 0px;
+  background-color: #999999;
+}
+.first-card{
+  margin-top: 70px;
+  border: 0px solid #e7e7e7;
+  border-right: 0px;
+  padding: 0px;
+ 
+}
+.card-img-top{
+  width: 100%;
+  height: 10vh;
+  object-fit: fill;
+}
+.card-title{
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-weight: bold;
+
+}
+.top-space{
+  margin-top: 100px;
+}
+.card-text{
+  font-size: 12px;
+}
+.float-img{
+  margin-right: 1px;
+  margin-bottom: 5px;
+  border: solid blue 0px;
+  padding: 0px;
+}
+.Top_image_space{
+   padding-top: 30px;
+ }
+
+.santmartin{
+  margin-top: 190px;
+}
+h1, h5, h6{
+font-weight: bold;
+}
+
+
+.cripora-map{
+  margin-top: 170px;
+}
+p{
+  font-size: 18px;
+}
+

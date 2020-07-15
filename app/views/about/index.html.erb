@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+    .about-section {
+      padding: 80px;
+      text-align: center;
+      background-color: #474e5d;
+      color: white;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color:cadetblue;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="about-section">
+  <h1>About Us Page</h1>
+  <p>
+    This is general purpose website. This website will content travel, Education, Motivation
+    and general purpose content.
+  </p>
+  <p></p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="/assets/about/murad.jpg" alt="Murad" class="rounded-circle" style="width: 100%">
+      <div class="container">
+        <h2>Murad Hossain Sarker</h2>
+        <p class="title">Website Developer</p>
+        <p>
+          I am Mohammed Murad Hossain Sarker completed Pba in software Development like to write code and
+          and learn new technology.
+        </p>
+        <p>Email: sarker24@gmail.com</p>
+        <p><button class="button" style="margin-top: 50px">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="/assets/about/borhan.jpg" alt="Murad" class="rounded-circle" style="width: 100%">
+      <div class="container">
+        <h2>Abdus Samad Habib Siddique</h2>
+        <p class="title">Website Developer</p>
+        <p>
+          I am Abdus Samad Habib Siddique completed Msc in physics CEO Mas IT solutions like to create and impliment new
+          idea in degital platform. Since 2007 I am working software developmet, web page design and networking field.
+        </p>
+        <p>Email: asborhan@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="/assets/about/ritul.jpg"  alt="Ritul" class="rounded-circle" style="width: 100%">
+      <div class="container">
+        <h2>Jonayed Hossain Sarker</h2>
+        <p class="title">Content Writer</p>
+        <p>I am Jonayed Hossain Sarker completed Bsc in Pharmacy like to travel various historical place and
+        also like to write blog.</p>
+        <p>Email: ritulsarker@gmail.com</p>
+        <p><button class="button" class="btn btn-success" style="margin-top: 70px">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<%= render 'layouts/footer' %>
+</body>

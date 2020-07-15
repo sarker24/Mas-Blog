@@ -1,0 +1,16 @@
+current directory: C:/Users/45717/RubymineProjects/Mas-Blog/vendor/cache/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+C:/Ruby26/bin/ruby.exe -I C:/Ruby26/lib/ruby/2.6.0 -r ./siteconf20200628-7492-1so6kv.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/45717/RubymineProjects/Mas-Blog/vendor/cache/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: C:/Users/45717/RubymineProjects/Mas-Blog/vendor/cache/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+generating cruby-i386-mingw32.def
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: C:/Users/45717/RubymineProjects/Mas-Blog/vendor/cache/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20200628-7492-1jqutd9/skiptrace/internal
